@@ -2,6 +2,21 @@
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+  background: url("./assets/nav-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.github-logo {
+  fill: blueviolet;
 }
 .main {
   width: 100%;
